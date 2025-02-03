@@ -1,0 +1,234 @@
+(footprint "FFC_I2C_General"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "5-103166-1")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at -3.75 0 0)
+		(layer "F.SilkS")
+		(uuid "4ff68f1a-c199-424d-81fc-02710ac86d22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FFC_I2C_General"
+		(at -0.5 -17.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b7ccdbc8-1ffb-44fd-9b7e-20e7eb437c61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "FFC_I2C_General"
+		(at 10 -6.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3176f06-2435-4367-9b8e-f847a11dc72c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7db43e35-68ff-4f5c-96a6-2eb9e5f7a265")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "701bba8c-c587-4cdf-a12c-ef94aa37c65e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -1.25)
+		(end -1.5 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4939ba77-ade2-445d-b72c-5276cb28ceb6")
+	)
+	(fp_line
+		(start 1 -1.25)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3ecb132-2fec-4fc3-8e5c-6602c2c129f9")
+	)
+	(fp_line
+		(start 1 0.75)
+		(end -1.5 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8bc0015-f68c-45ab-bd30-ac6b298b0f6c")
+	)
+	(fp_line
+		(start 1 0.75)
+		(end 1 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fdabf686-effa-4c05-876d-10171a8beeed")
+	)
+	(fp_line
+		(start -1.75 -1.5)
+		(end 1.25 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20c0330c-556f-480d-a11c-2108f5bffb91")
+	)
+	(fp_line
+		(start -1.75 0.9925)
+		(end -1.75 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1a5b6c5-ad64-41a8-97b4-a15b19f3deac")
+	)
+	(fp_line
+		(start 1.25 -1.5)
+		(end 1.25 0.9925)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d71d86c-24cd-4781-be57-8e736331d09f")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.75 0.9925)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "225cb442-7287-4995-bd51-9bf106c12d67")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end 1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2d6b710-cefe-4bc7-a26c-ab330773b1b7")
+	)
+	(fp_line
+		(start -1.5 0.75)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e2804a9-2499-474f-91d8-c56d33188bd5")
+	)
+	(fp_line
+		(start 1 -1.25)
+		(end 1 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c03bc11c-2727-4049-aacd-82e86f5c8c5d")
+	)
+	(fp_line
+		(start 1 0.75)
+		(end -1.5 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e1ac9d9-9180-4ba2-88b5-fbe1207a5fa2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1 3 0)
+		(layer "F.Fab")
+		(uuid "e6198d8e-8df9-497b-a1c9-785bc6559c8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 -0.25)
+		(size 0.35 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9a2357bb-41af-4127-a820-940da8ac0ab0")
+	)
+	(pad "2" smd rect
+		(at -0.5 -0.25)
+		(size 0.35 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ad4f0b38-9b72-4407-911d-cb49743531b3")
+	)
+	(pad "3" smd rect
+		(at 0 -0.25)
+		(size 0.35 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "65199dd0-bdb6-49cf-a115-96a1a409dde2")
+	)
+	(pad "4" smd rect
+		(at 0.5 -0.25)
+		(size 0.35 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7c4167f0-2cdb-46d3-9a69-6915cb3207e5")
+	)
+	(model "5-103166-1.stp"
+		(offset
+			(xyz -2.599999866 15.45999981 4.949999735)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
